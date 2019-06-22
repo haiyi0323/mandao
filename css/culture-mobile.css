@@ -1,0 +1,399 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-size: 0px;
+}
+.wrap{
+	width: 100%;
+}
+.nav{
+	width: 100%;
+	height: 65px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	z-index: 1000000;
+}
+.title_img{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin-left: 30%;
+}
+.title_img>img{
+    width: 140px;
+    height: 40px;
+    margin-top: 12.5px;
+}
+.menu_wrap{
+	width: 8%;
+	height: 65px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 17.5px;
+	right:10px;
+}
+.menu_wrap::before{
+    content: "";
+    display: block;
+    background-image: url(../cultureImg/navBtn.png);
+    background-size:50% 100%; 
+    width: 100%;
+    height: 20px;
+    padding-top: 5px;
+ }
+ .menu{
+ 	width: 100px;
+ 	height: 300px;
+ 	background-color: rgba(136,136,136,0.8);
+ 	position: absolute;
+ 	top: 47.5px;
+ 	right:-10px;
+ 	display: none;
+ }
+ .title_menu{
+ 	width: 80%;
+ 	margin-left: 10%;
+ 	height: 30px;
+ 	display: block;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	margin-top: 15px;
+ }
+.title_menu>a{
+	text-decoration: none;
+	color:black;
+	font-size: 17px;
+}
+.menu_wrap:hover .menu{
+	display: block;
+}
+.title_menu>a:hover{
+	color: white;
+}
+.content_black{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.company{
+	width: 80%;
+	margin-left: 10%;
+	height: auto;
+}
+.company_about{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;	
+	margin-bottom: 10px;
+}
+.company_about+img{
+	display: none;
+}
+.company_culture{
+	width: 100%;
+}
+.company_culture>p{
+	font-size: 10px;
+	color: white;
+	text-indent: 2em;
+	margin-top: 0px;
+}
+.content_yellow{
+     width:100%;
+     height: auto;
+     background-color: rgb(240,178,33);
+     margin-top: 0px;
+     padding-top: 60px;
+
+}
+.culture{
+	width: 100%;
+	height: auto;
+	/*margin-left: 5%;*/
+	margin-top: 10px;
+}
+.culture_about{
+	width: 100%;
+	display: block;
+	height: auto;
+	/*text-align: center;*/
+}
+.photo{
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.photo>img{
+	width: 100%;
+	margin-bottom: 15px;
+	/*height: 95%;*/
+}
+.goal_click{
+	width: 55%;
+	display: inline-block;
+	margin-left: 10%;
+	position: relative;
+
+}
+.goal_click>p{
+	width: 100%;
+	height: 60px;
+	line-height: 55px;
+	font-size: 22px;
+	color: white;
+}
+
+.goal{
+    width: 100%;
+    position: absolute;
+    top: 2px;
+    border:1px solid white;
+    background-color: rgb(250,240,240,0.95);
+    border-radius: 5px;
+    display: none;
+    line-height: 18px;
+}
+.goal>p{
+	font-size: 13px;
+	color: black;
+	text-align: left;
+	/*padding-bottom: 5px;*/
+
+}
+.goal_click:hover .goal{
+     display: block;
+}
+
+.content_red{
+	width: 100%;
+	height: auto;
+	background-color: rgb(193,39,45);
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.orginator{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+.originator_about{
+	width: 100%;
+	display: block;
+	padding-top: 10px;
+	position: relative;
+}
+.originator_img{
+	width: 35%;
+	height: 90px;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: top;
+}
+.originator_img>img{
+	width: 80%;
+	height: 90px;
+	border-radius: 50%;
+	/*margin-bottom: 15px;*/
+}
+.originator_msg{
+	position: absolute;
+	top: 10px;
+	width: 28%;
+	height: 90px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+}
+.originator_msg>p{
+	color: rgb(240,240,240);
+	font-size: 11px;
+	text-align: center;
+	margin-top: 17px;
+	line-height: 15px;
+}
+.originator_img:hover .originator_msg{
+	display: block;
+}
+.originator_character{
+	width: 63%;
+	height: auto;
+	border:1px solid white;
+	border-radius: 5px;
+	display: inline-block;
+}
+.originator_character>p{
+	font-size: 12px;
+	color: white;
+}
+.content_green{
+	width: 100%;
+	height: auto;
+	background-color: rgb(140,198,63);
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.contact{
+	width: 100%;
+	height: auto;
+}
+.contact_way{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.area{
+	width: 25%;
+	height: 65px;
+	background-color: white;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 65px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	vertical-align: top;
+}
+.area>p{
+	font-size: 16px;
+	color: black;
+}
+.address{
+	vertical-align: top;
+	margin-top: 15px;
+	margin-left: 5%;
+	width: 70%;
+	height: 60px;
+	border-radius: 6px;
+	background-color: rgb(246,246,246);
+	display: inline-block;
+	padding-top: 5px;
+}
+.address_email,.address_about{
+	width: 100%;
+	height: auto;	
+}
+.address_email>img,.address_about>img{
+	display: inline-block;
+	width: 6%;
+	height: auto;
+	vertical-align: top;
+	margin:0px 2%;
+}
+.address_email>p{
+	width: 90%;
+	word-break: break-word;
+	display: inline-block;
+	color: black;
+	font-size: 12px;
+}
+.address_about>p{
+	width: 90%;
+	word-break: break-word;
+	display: inline-block;
+	color: black;
+	font-size: 12px;
+	vertical-align: top;
+}
+.address_img{
+	display: none;
+}
+.content_darkblue{
+	width: 100%;
+	height: auto;
+	background-color: rgb(46,49,146);
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+.rule{
+	width: 100%;
+	color: white;
+}
+.notice{
+	width: 100%;
+}
+.small{
+	font-size: 14px;
+	padding-top: 3px;
+	font-weight: bolder;
+}
+.small+p{
+	font-size: 10px;
+	margin-top: 3px;
+	text-indent: 2em;
+}
+.content_purple{
+	display: none;
+}
+.content_blue{
+    width: 100%;
+	height: auto;
+	background-color: rgb(41,171,226);
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+.opinion{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+.name,.email{
+	width: 48%;
+	height: 20px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.email{
+	margin-left: 3%;
+}
+.name>input,.email>input{
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+.advice{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 5px;
+	
+}
+.advice>input{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 13px;
+    word-break: break-word;
+}
+.button{
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+}
+.button>input{
+	border-radius: 5px;
+	width: 100%;
+	line-height: 25px;
+	font-size: 13px;
+}
+.button>input:hover{
+	color: red;
+}

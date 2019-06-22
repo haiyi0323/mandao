@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.content{
+    width: 100%;
+}
+.bg{
+    width: 100%;
+    position: relative;
+}
+.bg>img{
+    width: 100%;
+    height: auto;
+}
+.pageCotrol{
+    position: absolute;
+    width: 40%;
+    bottom: 8px;
+    left: 40%;
+}
+.bg>div>p{
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3%;
+}
+.pageCotrol>p:hover{
+    background-color: red;
+}
+.falls{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.falls_item{
+    width: 100%;
+}
+.items>img{
+    width:100%;
+    height: 80%;
+    margin-bottom: 1%;
+}
+.items{
+    position: relative;
+    height: 350px;
+    width: 18%;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-top: 1%;
+}
+.recommend{
+    width: 100%;
+    background-color: rgb(80,80,80);
+    position: absolute;
+    top: 80%;
+}
+.recommend>p{
+    color: white;
+    font-size: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.recommend>span{
+    width: 42%;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+.fsdfw{
+    display: none;
+}
+html body footer{
+    display: block
+}
+.content{
+    padding:0px 0px 20px;
+}
+header {
+    width: 100%;
+    height: 90px;
+    background: #000;
+}
+.top_nav {
+    width: 1200px;
+    height: 90px;
+    position: relative;
+    margin: 0 auto;
+}
+.top_nav img {
+    width: 166px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+.login {
+    position: absolute;
+    top: 8px;
+    right: 22px;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+}
+.login {
+    position: absolute;
+    top: 8px;
+    right: 22px;
+    color: #fff;
+    font-size: 15px;}
+    .menu{
+        display: none
+    }
+    .top_nav >nav{
+        display: block;
+    }
+    .aside_right{
+        display: block
+    }
+    .carousel-inner > .item > img{
+        max-width: 115%;
+    }
+    ._mask{
+        border: red 1px solid;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    transform: scale(0,0);
+    transition: all 1s ease-in-out;
+    }
+    .items:hover ._mask{
+        transform: scale(1,1);
+   
+    }
+   

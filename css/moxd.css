@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.warp{
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.aside_right{
+	display: none;	
+}
+
+
+.nav{
+	display: none;
+}
+
+.banner{
+	width: 100%;
+	height: 50px; 	
+}
+.item>img{
+	width: 100%;
+	height:50px;
+	margin-left: 200px;
+}
+.margin{
+	width: 100%;
+}
+.page_left{
+	width: 100%;
+}
+.page_right,.left_top,footer{
+	display: none;
+}
+/*.page_right_bottom{
+	width: 80%;
+	margin-left:10%;
+}
+*/.banner_title{
+	width: 100%;
+	height: 40px;
+	background:pink;
+	margin-top:0px;
+}
+.banner_title>a{
+	display: inline-block;
+	width: 32%;
+	color:white;
+	font-size:18px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+}
+.banner_title>a:nth-child(2){
+	border-left:1px solid white;
+	border-right: 1px solid white; 
+}
+.banner_title>a:hover{
+	color: black;
+}
+
+.page_bor{
+	width: 100%;
+	background:white;
+
+}
+.page_bor>div{
+	width: 30%;
+	
+}
+/*.page_bor{
+	width: calc(100% - 32px)
+}*/
+.page_right_bottom{
+	width:80%;
+	height: 30px;
+	
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.page_right_bottom>p{
+	color:black;
+	background: white;
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 10px;
+	border:1px solid lightgray;
+}
+.page_right_bottom>p:hover{
+	background:lightblue;
+	color: white;
+}
+.page_bor_con>h2{
+	font-size: 14px;
+}
+.page_bor_con>h3{
+	font-size: 12px;
+	color: gray;
+}
+.page_bor_con{
+	
+	display: inline-block;
+	margin:10px 1.25%;
+	border: 1px solid black;
+	
+}
+.page_bor_con img{
+	width: 100%
+}
+.mfooter{
+	width: 100%;
+	height: 60px;
+	background: gray;
+	border-top: 3px solid pink;
+	position: fixed;
+	bottom: 0px;
+
+}
+.mobile_bottom{
+	padding-top: 5px;
+    text-align: center;
+    margin: 0 5px;
+}
+.dnav_part{
+	width: 20%;
+	
+	display: inline-block;
+}
+.mdicon-jiangbei{
+	font-size: 16px;
+}
+/*.mdicon-jiangbei>div{
+	content:"\e619";
+	display: block;
+}*/
+.dnav_part>a>div>p{
+	font-size: 14px;
+	color: white;
+	margin-top: 10px;
+}
+.dnav_part>a>div+p{
+	font-size: 14px;
+	color: white;
+}
+.dnav_part>a{
+	text-decoration: none;
+}
+.dnav_part>a>p:hover{
+	color: black;
+}

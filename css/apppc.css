@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mfooter{
+	display: none;
+}
+.content{
+	background: url(https://www.mdecomics.com.hk/templates/zh/default/images/app_bg2.png);
+	width: 100%;
+	height: auto;
+}
+.app_in{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	position: relative;
+	
+}
+.app_in>img{
+	margin-top: 20px;
+}
+
+.app_log{
+	position: absolute;
+	top: 114px;
+	left: 440px;
+}
+.app_code{
+	width: 252px;
+	height: 252px;
+	top: 212px;
+	position: absolute;
+	right: 20px;
+}
+.app_code1{
+	width: 238px;
+	height: 238px;
+	position:absolute;
+}
+.app_code2{
+	width: 210px;
+	height: 210px;
+	position: absolute;
+	top: 14px;
+	left:14px;
+}

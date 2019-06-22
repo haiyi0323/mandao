@@ -1,0 +1,331 @@
+.aside_right{
+    display: none;
+}
+.top_nav{
+    width: 100%;
+}
+.top_nav img{
+    width: 30%;
+    margin-left: 20px;
+}
+.login{
+    display: none;
+}
+.top_nav >nav{
+    display: none;
+}
+.menu{
+    display: block;
+    width: 100%
+    ;
+    font-size: 18px;
+}
+.jije{
+    height: 0px;
+    font-size: 17px;
+    
+}
+
+#jiewww:checked ~ .jije{
+    height: 150px;
+    bottom: -150px;
+    transition: 0.8s;
+}
+#jiofwoi:checked ~ .jije{
+    height: 0px;
+    bottom: 0px;
+    transition: 0.8s;
+}
+.fwferr{
+    width: 15%;
+    color: white;
+    display: block;  
+    height:50px;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    
+}
+.jije{
+   
+    width: 100%;
+    background: rgba(0, 0, 0, 0.71);
+   position: absolute;
+   bottom: 0px;
+   overflow: hidden;
+   z-index: 55;
+}
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    left: 15px;
+    line-height: 30px;
+    
+}
+#jiewww:checked ~ .fewfwea{
+    height: 50px;
+ }
+ .fewfwea{
+    color: white;
+    width: 100%;
+    display: block;
+    height: 20px;
+    position: relative;
+    left: 15px;
+    
+ }
+ .fwferr{
+    width: 15%;
+    color: white;
+    display: block;  
+    height:50px;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    bottom: -10px;
+    
+}
+.jiijew{
+    width: 100%;
+    position: relative;
+}
+.menu input{
+    display: none;
+}
+.warp{
+    width: 100%}
+ .carousel-inner > .item > img {
+    display: block;
+    max-width: 142%;
+    height: auto;
+    position: relative;
+    left: -76px;
+}
+.ddfe{
+    height: auto;
+}
+html >body article >.warp .item > a > img {
+    width: 150%;
+    position: relative;
+    left: -100px;
+    
+
+}
+header{
+    display: block;
+    height: 65px;
+    font-size: 18px;
+}
+.top_nav{
+    height: 65px;
+    font-size: 18px;
+}
+.theme_rj{
+    display: none;
+}
+.theme_in {
+    width: 100%;
+    margin: -5px auto;
+    position: relative;
+    padding-bottom: 30px;
+    z-index: 6;}
+    .theme_tiet{
+        display: none;
+    }
+    .theme_top{
+    width: 100%
+    }
+    .theme_zkk{
+        width: 100%
+        ;    background-size: 100%;
+    }
+    .theme_mid{
+        width: 100%;
+    }
+    .theme_foot{
+        display: none;
+    }
+    .theme_img > a img{
+        width: 100%
+    }
+    .theme_min{
+        width: 95%;
+        padding: 10px 0px;
+    }
+    .theme_manh{
+        margin: 10px 0px;
+        height: auto;
+        width: 30%;
+    }
+    .college_in{
+        width: 100%;
+        height: auto;
+        background: url(https://www.mdecomics.com.hk/templates/zh/default/images/theme_mid.gif) repeat-y;
+        background-size: 100%;
+        margin: 0px auto;
+        position: relative;
+        padding-top: 40px;
+    }
+    .gdtj{
+        transform: scale(0.6);
+        position: absolute;
+        left: -54px;
+        top: -13px;
+        z-index: 55;
+    }
+    .theme_manhs{
+        height: auto;
+        width: 40%;
+        margin: 20px 4.7% 0px;
+    }
+    .container-fluid{
+        text-align: left
+    }
+    .gdtje{
+        right: 33px;
+        bottom: 80px;
+    }
+    article{
+        padding-bottom: 0px;
+    }
+    .dsno{
+        display: none;
+    }
+    html body footer{
+        display: none;
+    }
+    .bottmotext{
+        display: none;
+    }
+    .kong{
+        width: 5px;
+        height: 25px;
+        background: red;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .ztdmxd{
+        display: inline-block;
+        width: 270px;
+        vertical-align: middle;
+        font-size: 20px;
+        margin: 0px;
+    }
+    .thememan{
+        text-align: left;
+        display: block;
+        padding-left: 15px;
+    }
+    .more{
+        vertical-align: middle;
+    }
+    .theme_manh .theme_tit {
+       background: transparent;
+        font-size: 14px;
+        color: rgb(75, 75, 75);
+        height: 31px;
+        padding: 0px;
+        padding-top: 5px;
+    }
+    .mrr{
+        display: none;
+    }
+    .vtm{
+        vertical-align: top;
+    }
+    .theme_tit p{
+        display: inline-block;
+    }
+    .rmxsp{
+        width: 42%;
+        text-align: left;
+        display: inline-block;
+        margin: 10px;
+    }
+    .sp_img{
+        width: 100%
+    }
+    .sp_img img{
+        width: 100%;
+    }
+    .f12{
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 8px 0px;
+    }
+    .theme_manhs .theme_tit{
+        padding: 3px 10px;
+        height: 45px;
+       
+    }
+   
+    .college{
+  
+        border-bottom: 3px solid black;
+    }
+    .warprr {
+        padding-bottom: 20px;
+    }
+    .jdij_img img{
+        width: 40%;    }
+        .jdij_img{
+            text-align: center;
+            margin: 15px;
+            padding: 10px;
+        }
+        .bottom-nav{
+            width: 100%;
+            height: 65px;
+            position: fixed;
+            background: black;
+            border-top: 3px solid red;
+            bottom: 0px;
+            z-index: 88888;
+        }
+        .dsfse{
+            margin-bottom: 60px;
+           
+        }
+        .smbtn{
+            color: white;
+            width: 20%;
+            height: 100%;
+            font-size: 14px;
+            vertical-align: top;
+            text-align: center;
+            padding: 8px 0px;
+        }
+        .smbtn a{
+            text-decoration: none;
+        }
+        .bottom-nav{
+            font-size: 0px;
+        }
+        .f18{
+            font-size: 22px;
+        }
+        .f14{
+            font-size: 14px;
+        }
+        .yuan{
+            width: 46px;
+            height: 46px;
+            background:red;
+            border-radius: 50%;
+            margin: 0px auto;
+        }
+        .fdsfsfe{
+            margin-top: 10px;
+        }
+        .fsdfw{
+            display: block;
+        }
+        .hot_video{
+            display: none;
+        }
+        

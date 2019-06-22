@@ -1,0 +1,77 @@
+.from{
+    display: none;
+}
+.topnav{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0px;
+   
+    border-bottom: 3px solid red;
+    color: white;
+    background: black;
+}
+.fd{
+    float: left;
+}
+.jifjwe{
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    margin: 0px auto;
+}
+.dfsd{
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.login_img{
+    width: 60%;
+    margin: 20px auto 0px;
+}
+.login_img img{
+    width: 100%
+}
+.inputk .boteew{
+    border: none;
+    outline: none;
+    border-radius: 0px;
+}
+.ingppp{
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0px auto;
+}
+.dfhuwh{
+   width: 100%;
+   text-align: right;
+   padding-right: 30px;
+   padding-top: 10px;
+   
+}
+.dfhuwh a{
+    color: gray;
+    text-decoration: none
+}
+.fdfd{
+    padding: 10px 120px;
+    margin: 15px auto;
+    border-radius: 25px;
+
+}
+.containeddr{
+    text-align: center;
+}
+.containeddr a{
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+.jfiewwe{
+    padding: 0px 50px;
+    text-align: center;
+}
+#fdsfeww{
+    display: block;
+}

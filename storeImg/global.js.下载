@@ -1,0 +1,14 @@
+function invalue(divid,id)
+{
+	document.getElementById(divid).value=id;
+}
+
+function inhtml(divid,id)
+{
+	document.getElementById(divid).innerHTML=id;
+}
+
+function fade_toggle(divid)
+{
+	$(divid).fadeToggle();
+}

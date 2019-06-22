@@ -1,0 +1,105 @@
+.from{
+    display: none;
+}
+.topnav{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0px;
+   
+    border-bottom: 3px solid red;
+    color: white;
+    background: black;
+}
+.fd{
+    float: left;
+}
+.jifjwe{
+    line-height: 30px;
+    text-align: center;
+    width: 130px;
+    margin: 0px auto;
+}
+.dfsd{
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.login_img{
+    width: 60%;
+    margin: 20px auto 0px;
+}
+.login_img img{
+    width: 100%
+}
+.inputk .boteew{
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.ingppp{
+ 
+    overflow: hidden;
+  
+    width: 90%;
+    margin: 0px auto;
+}
+.inputk{
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 15px auto;
+    overflow: hidden;
+}
+.inpu .boteew{
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    overflow: hidden;
+    
+}
+
+.dfhuwh{
+   width: 100%;
+   text-align: right;
+   padding-right: 30px;
+   padding-top: 10px;
+   
+}
+.dfhuwh a{
+    color: gray;
+    text-decoration: none
+}
+.fdfd{
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 25px;
+
+}
+.containeddr{
+    text-align: center;
+}
+.containeddr a{
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+.jfiewwe{
+    padding: 0px 50px;
+    text-align: center;
+}
+#fdsfeww{
+    display: block;
+}
+.inputks{
+    width: 65%;
+    border-radius: 15px;
+    border: 1px solid gray;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fdfwdwq{
+    background: rgb(61, 61, 61);
+    color: white;
+    height: 45px;
+}
